@@ -1,0 +1,62 @@
+<html>
+ <head>
+  <title>AJ Interlocking Tiles</title>
+  <link rel="stylesheet" type="text/css" href="css/websitetemplate.css"> 
+  <link  href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+  
+  
+  <style type="text/css">
+      /* Set the size of the div element that contains the map */
+      #map {
+        height: 400px;
+        /* The height is 400 pixels */
+        width: 100%;
+        /* The width is the width of the web page */
+      }
+    </style>
+    <script>
+      function initMap() {
+	  
+        const aj = { lat:28.210446141387163, lng: 77.39641300500868};
+        // The map, centered at Uluru
+        const map = new google.maps.Map(document.getElementById("map"), {
+          zoom: 4,
+          center: aj,
+        });
+        // The marker, positioned at Uluru
+        const marker = new google.maps.Marker({
+          position: aj,
+          map: map,
+        });
+      }
+    </script>
+ </head>
+ <body>
+ <header>
+     <nav>
+	    <div class="logo"><h1 class="animate__animated animate__bounce">AJ</h1></div>
+		<div class="menu">
+		<a href="index.html">Home</a>
+		<a href="type.html">Types</a>
+		<a href="gallery.html">Gallery</a>
+		<a href="contact.html">Contact us</a>
+		<a href="about.html">About</a>
+		</div>
+	</nav>
+		<main>
+		  <section>
+			<div id="map">
+			<script src="https://www.google.co.in/maps/place/Sadarpur,+Haryana+121102/@28.2070047,77.3901903,15z/data=!3m1!4b1!4m13!1m7!3m6!1s0x390cd3ad98a3489f:0x859799eaeabce205!2sPalwal,+Haryana+121102!3b1!8m2!3d28.1472852!4d77.3259878!3m4!1s0x390cce3f071124c5:0xd38ae49b984dc40d!8m2!3d28.2081428!4d77.3970348">
+			</script>
+			
+			</div>
+			</section>
+		</main>	
+ </header>
+ <script>
+ 
+ </script>
+ </body>
+ 
+</html>

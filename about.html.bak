@@ -1,0 +1,31 @@
+<html>
+ <head>
+  <title>AJ Interlocking Tiles</title>
+  <link rel="stylesheet" type="text/css" href="css/websitetemplate.css"> 
+  <link  href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+ </head>
+ <body>
+ <header>
+     <nav>
+	    <div class="logo"><h1 class="animate__animated animate__bounce">AJ</h1></div>
+		<div class="menu">
+		<a href="index.html">Home</a>
+		<a href="type.html">Types</a>
+		<a href="gallery.html">Gallery</a>
+		<a href="contact.html">Contact us</a>
+		<a href="about.html">About</a>
+		</div>
+	</nav>
+		<main>
+		  <section>
+		   <a href$="js/dbms.pdf"> know more</a>
+			</section>
+		</main>	
+ </header>
+ <script>
+ 
+ </script>
+ </body>
+ 
+</html>
